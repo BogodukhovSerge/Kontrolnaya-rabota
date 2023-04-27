@@ -29,3 +29,6 @@ void SecondArray(string[] array1, string[] array2)
         }
     }
 }
+
+SecondArray(array1, array2);
+PrintArray(array2);
