@@ -7,3 +7,12 @@
 
 string[] array1 = new string[5] {"Alisa", "Do", "576", "Seri", "Mac"};
 string[] array2 = new string[array1.Length];
+
+void PrintArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"{array[i]} ");
+    }
+    Console.WriteLine();
+}
